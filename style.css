@@ -1,0 +1,43 @@
+
+
+body {
+background: linear-gradient(to right, #000000, #3b0505);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-weight: bold;
+}
+
+select {
+    margin-top: 1rem;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #2008082c;
+}
+
+input {
+    border-radius: 25px;
+    border: 0px;
+    background-color: #20080831;
+}
+
+.botao:hover {
+    background-color: rgba(46, 13, 13, 0.555);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    margin: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px #200808;
+    display: block;
+    background: rgba(243, 242, 242, 0.973); 
+}
+
+.box {
+    display: inline-block;
+    width: 300px;
+}
+
+
