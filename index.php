@@ -11,7 +11,7 @@ if (isset($_GET['nro1'], $_GET['nro2'], $_GET['calcular'])) {
     $calcular = $_GET['calcular'];
 
     switch($calcular) {
-        case 'somar':
+        case 'somars':
             $resultado = $nro1 + $nro2;
             break;
         case 'subtrair':
